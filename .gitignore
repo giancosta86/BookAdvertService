@@ -1,0 +1,7 @@
+/.idea/
+/target/
+/project/project/target/
+/project/target/
+/dynamodb-local/
+/lib_managed/
+/logs/

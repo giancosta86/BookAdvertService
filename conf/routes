@@ -1,0 +1,9 @@
+GET /adverts    controllers.BookAdverts.findAll(sortBy: Option[String], ascending: Option[Boolean])
+
+GET /adverts/:id    controllers.BookAdverts.findById(id: java.util.UUID)
+
+PUT /adverts/:id    controllers.BookAdverts.add(id: java.util.UUID)
+
+POST /adverts/:id    controllers.BookAdverts.update(id: java.util.UUID)
+
+DELETE  /adverts/:id    controllers.BookAdverts.delete(id: java.util.UUID)
